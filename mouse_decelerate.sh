@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DEV_NAME="Gaming Mouse"
+DEV_NAME="Mouse"
 DEV_LIST=`xinput list | grep $DEV_NAME | cut -d '=' -f2 | cut -d '[' -f1`
 DEACC_DEFAULT="-1"
 CONST_DEACC_DEFAULT="1.8"
